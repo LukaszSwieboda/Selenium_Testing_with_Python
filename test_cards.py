@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 def test_ice_spirit_is_displayed():
-    driver = webdriver.Chrome('/Users/lukaszswieboda/Downloads/chromedriver')
+    driver = webdriver.Chrome('/Your/Driver/Path/')
     # 1. go to statsroyale.com
     driver.get('https://statsroyale.com')
 
