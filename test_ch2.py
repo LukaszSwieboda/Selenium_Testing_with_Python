@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 
 def test_google_search():
-    driver = webdriver.Chrome('/Users/lukaszswieboda/Downloads/chromedriver')
+    driver = webdriver.Chrome('//Your/Driver/Path/')
     # 1. go to google.com
     driver.get('https://google.com')
 
