@@ -4,7 +4,7 @@ from selenium import webdriver
 class MainTest(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        self.driver = webdriver.Chrome('/Users/lukaszswieboda/Downloads/chromedriver')
+        self.driver = webdriver.Chrome('/Your/Driver/Path/')
 
     def setUp(self):
         print('przygotowanie do testu')
