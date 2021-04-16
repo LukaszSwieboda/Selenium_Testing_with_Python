@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 def test_checkbox_selenium_easy():
-    driver = webdriver.Chrome('/Users/lukaszswieboda/Downloads/chromedriver')
+    driver = webdriver.Chrome('//Your/Driver/Path/')
     # 1. get to seleniumeasy.com
     driver.get('https://www.seleniumeasy.com/test/basic-checkbox-demo.html')
 
