@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome('/Users/lukaszswieboda/Downloads/chromedriver')
+driver = webdriver.Chrome('/Your/Driver/Path/')
 driver.get('https://demobank.jaktestowac.pl/logowanie_etap_1.html')
 
 title = driver.title
