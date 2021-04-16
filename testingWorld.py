@@ -11,7 +11,7 @@ import unittest
 #@pytest.fixture()
 #def enviroment_setup():
     #global driver
-    #driver = webdriver.Chrome('/Users/lukaszswieboda/Downloads/chromedriver')
+    #driver = webdriver.Chrome('/Your/Driver/Path/')
     #driver.get("https://thetestingworld.com/testings")
     #driver.refresh()
     #driver.maximize_window()
@@ -22,7 +22,7 @@ import unittest
 class MainTests(unittest.TestCase):
 
     def test_verify_registration(self):
-        self.driver = webdriver.Chrome('/Users/lukaszswieboda/Downloads/chromedriver')
+        self.driver = webdriver.Chrome('/Your/Driver/Path/')
         driver = self.driver
         driver.get("https://thetestingworld.com/testings")
         wait = WebDriverWait(driver, 100)
