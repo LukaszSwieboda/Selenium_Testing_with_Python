@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import pytest
 
 def test_lava_golem_is_displayed():
-    driver = webdriver.Chrome('/Users/lukaszswieboda/Downloads/chromedriver')
+    driver = webdriver.Chrome('/Your/Driver/Path/')
     # 1. go to statsroyale.com
     driver.get('https://statsroyale.com')
 
