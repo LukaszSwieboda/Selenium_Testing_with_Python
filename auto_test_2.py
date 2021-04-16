@@ -4,8 +4,7 @@ from selenium import webdriver
 class MainTests(unittest.TestCase):
    @classmethod
    def setUpClass(self):
-       self.driver = webdriver.Chrome('/Users/lukaszswieboda/Downloads/chromedriver')
-       # Dodajmy do metody setUp() inicjalizację drivera usuwając jednocześnie inne polecenia, które tam dodaliśmy
+       self.driver = webdriver.Chrome('/Your/Driver/Path/')
 
    def test_demo_login(self):
        driver = self.driver
@@ -25,7 +24,6 @@ class MainTests(unittest.TestCase):
    def tearDownClass(self):
        self.driver.quit()
 
-       # tearDownClass()
-       # Dzięki niej dopiero po wykonaniu wszystkich metod w klasie nastąpi zamknięcie przeglądarki
+      
 
 
